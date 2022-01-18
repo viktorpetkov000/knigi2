@@ -1405,6 +1405,38 @@ body {
 	background-color: #CE4257;
 }
 
+.about-header-container {
+	position: relative;
+	margin: auto;
+	padding-bottom: 23%;
+	margin-top: -93px;
+	background-image: url("../files/bg1.png");
+	background-size: cover;
+	display: flex;
+}
+
+.about-header-border {
+	border: solid 2px #E25B54;
+	position: absolute;
+	width: 100%;
+	height: 7px;
+	bottom: 0;
+	left: 0;
+}
+
+.about-header {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 101.659px;
+	line-height: 151px;
+	text-align: center;
+	color: #720026;
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+}
+
 @media only screen and (max-width: 770px) {
 	.logo-main, .separator-menu {
 		display: none;
