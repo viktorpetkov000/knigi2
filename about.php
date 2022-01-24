@@ -40,11 +40,79 @@
 			</button>
 			<div class="collapse navbar-collapse" id="menuLogin"></div>
 		</nav>
+		<div class="modal fade" id="window" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 id="windowTitle"></h4>
+					</div>
+					<div class="modal-body" id="windowForm"></div>
+				</div>
+			</div>
+		</div>
     <div class="main-container">
       <div class="about-header-container">
         <span class="about-header">За платформата</span>
         <div class="about-header-border"></div>
       </div>
+			<div class="about-info-container">
+				<div class="about-info">
+					<h1 class="about-info-header">Идея</h1>
+					<br>
+					<span class="about-info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc velit feugiat nunc, in. Tellus integer fermentum amet, iaculis tortor feugiat. Interdum dictum metus sit luctus aliquam. Scelerisque blandit sed diam lacus et tincidunt enim nisl. Iaculis ac nulla lectus fringilla velit ut. 
+      Tempus morbi vitae facilisis morbi volutpat mauris sit dignissim faucibus. Vulputate facilisi sapien et, in facilisi ut. Interdum libero.  
+      Tempus morbi vitae facilisis morbi volutpat mauris sit.
+					</span>
+				</div>
+				<img class="about-info-picture" src="files/books5.png">
+				</div>
+
+			<div class="about-counters-container">
+				<div class="about-counter user-counter">
+					<img src="./files/users.png" class="about-counter-image"/>
+					<span class="about-counter-number">12 000</span>
+					<span class="about-counter-text">потребители</span>
+				</div>
+				<div class="about-counter item-counter">
+					<img src="./files/cat-1.png" class="about-counter-image"/>
+					<span class="about-counter-number">9 000</span>
+					<span class="about-counter-text">артикула</span>
+				</div>
+				<div class="about-counter deal-counter">
+					<img src="./files/deals.png" class="about-counter-image"/>
+					<span class="about-counter-number">20 000</span>
+					<span class="about-counter-text">сделки</span>
+				</div>
+			</div>
+			<div class="about-info2">
+				<div class="about-info2-box">
+					<h1 class="about-info-header">Мисия</h1>
+					<span class="about-info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc velit feugiat nunc, in. Tellus integer fermentum amet, iaculis tortor feugiat. Interdum dictum metus sit luctus aliquam. Scelerisque blandit sed diam lacus et tincidunt.
+					</span>
+				</div>
+			</div>
+			<div class="about-contact">
+				<h1 class="about-info-header">Искаш да знаеш още?</h1>
+				<a href="./contacts.php" class="button-red">Свържи се с нас</a>
+			</div>
     </div>
+		<div class="footer">
+			<div class="footer-info">
+				<div class="footer-logo">
+					<img src="files/logo2.png"/>
+				</div>
+				<div class="footer-info2">
+					<div class="footer-sitename">knigiknigi.knig</div>
+					<div class="footer-copyright">Copyright © 2021 Всички права запазени</div>
+				</div>
+				<div class="footer-slogan">Най-добрия слоган на света!</div>
+			</div>
+			<div class="footer-menu">
+				<a class="footer-menu-item" href="#">Контакт</a>
+				<a class="footer-menu-item" href="#">Услуги</a>
+				<a class="footer-menu-item" href="#">Лични данни</a>
+				<a class="footer-menu-item" href="#">Политика за използване на бисквитки</a>
+			</div>
+		</div>
   </body>
 </html>

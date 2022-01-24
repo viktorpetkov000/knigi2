@@ -128,9 +128,7 @@
 				<a class="footer-menu-item" href="#">Политика за използване на бисквитки</a>
 			</div>
 		</div>
-
 		<div class="container-fluid" id="middle-container">
-
 			<div class="row">
 				<div class="col-md-3">
 					<form id="search" style="margin:auto;max-width:300px">

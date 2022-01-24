@@ -1437,6 +1437,151 @@ body {
 	bottom: 25px;
 }
 
+.about-info-container {
+	margin-top: 3%;
+	position: relative;
+	background-image: url("../files/bg2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	flex-direction: row;
+}
+
+.about-info {
+	float: left;
+	border-radius: 25px;
+	padding: 40px 55px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+}
+
+.about-info-header {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 62.8307px;
+	line-height: 93px;
+	color: #720026;
+	margin-left: -3px;
+}
+
+.about-info-text {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32.832px;
+	line-height: 39px;
+	color: #4F000B;
+}
+
+.about-info-picture {
+	position: absolute;
+	background-image: url("../files/books5.png");
+	background-size:cover;
+	background-repeat: round;
+	width: 55%;
+	height: 90%;
+	margin-left: 65px;
+	border: none;
+	right: 25px;
+	bottom: 0;
+}
+
+.about-counters-container {
+	margin-top: 3%;
+	background: linear-gradient(92.07deg, #FF7F51 0%, #CE4257 104.11%);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 1.5%;
+	width: 100%;
+	height: 100%;
+}
+
+.about-counter {
+	background: #FFFBF8;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	height: 250px;
+	width: 15%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-counter:not(:first-child) {
+	margin-left: 19%;
+}
+
+.about-counter-number {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 62.8307px;
+	line-height: 93px;
+	text-align: center;
+	color: #CE4257;
+}
+
+.about-counter-text {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38.8319px;
+	line-height: 39px;
+	text-align: center;
+	color: #CE4257;
+}
+
+.about-info2 {
+	margin-top: 3%;
+	padding: 25px 30px;
+	background-image: url("../files/bg3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.about-info2-box {
+	padding: 2%;
+	background: #FFFBF8;
+	box-shadow: 2px 2px 20px #000000;
+	border-radius: 5px;
+	width: 40%;
+}
+
+.about-contact {
+	margin-top: 6%;
+	margin-bottom: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.about-contact a {
+	margin-top: 1%;
+	width: 23%;
+	letter-spacing: 2px;
+	font-size: 32px;
+	height: 60px;
+	border: none;
+	display:flex;
+  align-items:center;
+  justify-content:center;
+	cursor: pointer;
+}
+
+.about-contact a:hover {
+	color: #FFF9F3;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 770px) {
 	.logo-main, .separator-menu {
 		display: none;

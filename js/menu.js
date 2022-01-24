@@ -4,7 +4,7 @@ let oldMenu =
 			<a class="nav-link" href="#" onClick="">Контакти</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#" onClick="">За платформата</a>
+			<a class="nav-link" href="./about.php" onClick="">За платформата</a>
 		</li>
 		<li class="nav-item">
 			<a class="" href="./index.php"><img src="files/test.png" class="logo-main"></a>
