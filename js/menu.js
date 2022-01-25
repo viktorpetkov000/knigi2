@@ -1,7 +1,7 @@
 let oldMenu =
 	`<ul class="navbar-nav mr-auto">
 		<li class="nav-item">
-			<a class="nav-link" href="#" onClick="">Контакти</a>
+			<a class="nav-link" href="./contacts.php" onClick="">Контакти</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="./about.php" onClick="">За платформата</a>
